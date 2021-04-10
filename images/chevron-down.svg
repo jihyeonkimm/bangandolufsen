@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="8px" viewBox="0 0 10 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-link-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.615384615" y="0" width="7.38461538" height="9.97375328"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation/Footer/D" transform="translate(-110.000000, -186.000000)">
+            <g id="CP027-Footer-D">
+                <g id="Our-Policies-Copy-4" transform="translate(40.000000, 124.671916)">
+                    <g id="arrow-link-small" transform="translate(75.000000, 64.829396) rotate(-270.000000) translate(-75.000000, -64.829396) translate(71.000000, 59.842520)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask" fill-rule="nonzero"></g>
+                        <path d="M1.92307692,0 L6.92307692,4.98687664" id="Line-2" stroke="#767676" stroke-width="1.6" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M1.92307692,4.60327075 L6.92307692,9.59014739" id="Line-2" stroke="#767676" stroke-width="1.6" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(4.615385, 7.288512) scale(1, -1) translate(-4.615385, -7.288512) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

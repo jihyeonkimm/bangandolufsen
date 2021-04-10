@@ -1,0 +1,515 @@
+/* 768px~1023px */
+@media all and (min-width:768px) and (max-width:1023px) {
+  /* header */
+  header {
+    width: 100%;
+  }
+  header #small_menu ul {
+    display: none;
+  }
+
+  /* 메인 비주얼 영역 */
+  .main_visual .main_slide h3 {
+    font-size: 6vw;
+  }
+  .main_visual .main_slide p {
+    font-size: 22px;
+    margin-top: 9%;
+  }
+
+  /* 제품 영역 */
+  .product {
+    height: 1350px;
+  }
+  .product>.container ul {
+    flex-wrap: wrap;
+  }
+  .product>.container ul li {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  .product>.container ul li div .small_title {
+    left: 120px;
+  }
+
+  /* 홈 오피스 에센셜 영역 */
+  .home_office>.container .home_item_container div a {
+    height: 70%;
+  }
+
+  /* 뉴스레터 영역 */
+  .news_letter>.container {
+    padding-left: 3%;
+  }
+
+  /* footer */
+  footer {
+    height: 500px;
+  }
+  footer>.container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer_menu {
+    width: 70%;
+  }
+  .footer_menu div {
+    margin: 0 10px;
+  }
+  .footer_right {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 50px;
+    margin-bottom: 90px;
+  }
+  .footer_right .sns {
+    width: 40%;
+  }
+  .language {
+    width: 35%;
+    margin-top: 0;
+  }
+
+}
+
+/* 480px~767px */
+@media all and (min-width:480px) and (max-width:767px) {
+  h2 {
+    font-size: 48px;
+    line-height: 1.3;
+    padding-bottom: 4%;
+  }
+  .container>p {
+    font-size: 16px;
+    padding-bottom: 4%;
+  }
+  /* header */
+  header {
+    width: 100%;
+  }
+  header h1 a {
+    width: 180px;
+  }
+  header #small_menu ul {
+    display: none;
+  }
+
+  /* 메인 비주얼 영역 */
+  .main_visual .main_slide h3 {
+    font-size: 7vw;
+  }
+  .main_visual .main_slide p {
+    font-size: 20px;
+    margin-top: 11%;
+  }
+
+  /* 스토리 영역 */
+  .story {
+    height: 1400px;
+  }
+  .myCarousel {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+  }
+  .myCarousel .slides-wrapper .slides.content {
+    width: 70%;
+    height: 80%;
+    top: 0;
+  }
+  .myCarousel .slides-wrapper .slides.content .bodytext {
+    margin-top: 15%;
+    padding: 0;
+    padding-left: 30px;
+  }
+  .myCarousel .slides-wrapper .slides.photo {
+    width: 100%;
+    height: 80%;
+    top: 100%;
+  }
+  .myCarousel #arrows {
+    left: 40%;
+    padding: 0;
+  }
+
+  /* 제품 영역 */
+  .product {
+    height: 1450px;
+  }
+  .product>.container ul {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .product>.container ul li {
+    width: 48%;
+    margin-bottom: 5%;
+  }
+  .product>.container ul li:nth-child(3),
+  .product>.container ul li:nth-child(4) {
+    margin-top: 12%;
+  }
+  .product>.container ul li div img {
+    width: 100%;
+  }
+  .product>.container ul li div .small_title {
+    display: none;
+  }
+  .product>.container ul li div p {
+    padding-bottom: 5%;
+  }
+
+  /* 홈 오피스 에센셜 영역 */
+  .home_office.on>.container>h2 {
+    padding-top: 5%;
+  }
+  .home_office>.container>p {
+    width: 80%;
+  }
+  .home_office>.container .home_item_container {
+    justify-content: space-evenly;
+  }
+  .home_office>.container .home_item_container div {
+    width: 48%;
+    margin-top: 2%;
+    height: 400px;
+  }
+  .home_office>.container .home_item_container div a img {
+    width: 100%;
+    height: 100%;
+  }
+  .home_office>.container .home_item_container div h3 {
+    font-size: 18px;
+  }
+  .home_office>.container .home_item_container div p {
+    text-align: center;
+  }
+  #homeoffice_item02, #homeoffice_item05 {
+    margin-top: 14%;
+  }
+  #homeoffice_item02.on, #homeoffice_item05.on {
+    margin-top: 4%;
+  }
+
+  /* 서비스 영역 */
+  .service {
+    height: 1300px;
+  }
+  .service>.container>div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service>.container div div {
+    width: 70%;
+    padding: 5% 2%;
+    height: 350px;
+  }
+  .service>.container div div p {
+    width: 80%;
+    text-align: center;
+  }
+  .service>.container div div:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    margin-bottom: 2%;
+  }
+
+  /* 뉴스레터 영역 */
+  .news_letter {
+    background: contain;
+    height: 500px;
+  }
+  .news_letter>.container {
+    padding: 5% 4%;
+  }
+  .news_letter>.container>span {
+    padding: 3% 0;
+  }
+  .news_letter>.container>p {
+    padding: 5% 0;
+  }
+  .news_letter .btn_more {
+    margin-top: 10%;
+  }
+
+  /* footer */
+  footer {
+    height: 700px;
+  }
+  footer>.container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  footer>.container h1 {
+    width: 130px;
+    height: 130px;
+  }
+  .footer_menu {
+    width: 100%;
+  }
+  .footer_menu div {
+    margin: 0 10px;
+  }
+  .footer_right {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 50px;
+    margin-bottom: 90px;
+  }
+  .footer_right .sns {
+    width: 40%;
+  }
+  .language {
+    width: 50%;
+    margin-top: 0;
+  }
+}
+
+
+/* ~479px */
+@media all and (max-width:479px) {
+  body {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 1.3;
+    padding-bottom: 4%;
+  }
+  .container>p {
+    padding-bottom: 4%;
+    font-size: 14px;
+  }
+  /* header */
+  header {
+    width: 100%;
+    height: 60px;
+  }
+  header h1 a {
+    width: 140px;
+    padding-right: 5px;
+  }
+  header #small_menu ul {
+    display: none;
+  }
+  header .togglebar {
+    width: 25px;
+    height: 15px;
+  }
+
+  /* 메인 비주얼 영역 */
+  .main_visual {
+    margin-top: 60px;
+  }
+  .main_visual .main_slide h3 {
+    font-size: 10vw;
+  }
+  .main_visual .main_slide p {
+    font-size: 14px;
+    margin-top: 13%;
+  }
+  .main_visual .main_nav a {
+    font-size: 16px;
+  }
+
+  /* 스토리 영역 */
+  .story {
+    height: 150vh;
+  }
+  .myCarousel {
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 79vh;
+  }
+  .myCarousel .slides-wrapper .slides.content {
+    width: 80%;
+    height: 80%;
+    top: 0;
+  }
+  .myCarousel .slides-wrapper .slides.content .bodytext {
+    margin-top: 15%;
+    padding: 0;
+    padding-left: 20px;
+  }
+  .myCarousel .slides-wrapper .slides.content .title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .myCarousel .slides-wrapper .slides.photo {
+    width: 100%;
+    height: 70%;
+    top: 100%;
+  }
+  .myCarousel .slides-wrapper .slides.photo .image {
+    background: center center/150% 100% no-repeat;
+  }
+  .myCarousel #arrows {
+    left: 30%;
+    padding: 0;
+  }
+
+  /* 제품 영역 */
+  .product {
+    height: 200%;
+  }
+  .product>.container ul {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .product>.container ul li {
+    width: 90%;
+    margin-bottom: 5%;
+  }
+  .product>.container ul li div {
+    height: 100%;
+  }
+  .product>.container ul li div img {
+    width: 80%;
+  }
+  .product>.container ul li div .small_title {
+    display: none;
+  }
+  .product>.container ul li div p {
+    padding-bottom: 5%;
+  }
+
+  /* 홈 오피스 에센셜 영역 */
+  .home_office {
+    height: 200%;
+  }
+  .home_office.on>.container>h2 {
+    padding-top: 5%;
+  }
+  .home_office>.container {
+    padding-bottom: 7%;
+  }
+  .home_office>.container>p {
+    width: 80%;
+  }
+  .home_office>.container .home_item_container {
+    justify-content: space-evenly;
+  }
+  .home_office>.container .home_item_container div {
+    width: 48%;
+    margin-top: 2%;
+    height: 50%;
+  }
+  .home_office>.container .home_item_container div a {
+    height: 240px;
+  }
+  .home_office>.container .home_item_container div a img {
+    width: 100%;
+  }
+  .home_office>.container .home_item_container div h3 {
+    font-size: 16px;
+  }
+  .home_office>.container .home_item_container div p {
+    text-align: center;
+  }
+  #homeoffice_item02, #homeoffice_item05 {
+    margin-top: 14%;
+  }
+  #homeoffice_item02.on, #homeoffice_item05.on {
+    margin-top: 4%;
+  }
+
+  /* 서비스 영역 */
+  .service {
+    height: 1200px;
+    padding-top: 10%;
+  }
+  .service>.container>div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service>.container h2 {
+    text-align: center;
+  }
+  .service>.container>p {
+    text-align: center;
+  }
+  .service>.container div div {
+    width: 90%;
+    padding: 5% 2%;
+    height: 30%;
+  }
+  .service>.container div div p {
+    width: 80%;
+    text-align: center;
+  }
+  .service>.container div div:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    margin-bottom: 2%;
+  }
+
+  /* 뉴스레터 영역 */
+  .news_letter {
+    background: url('../images/bg_news_letter_480px.jpg') left top/100% no-repeat; 
+    height: 400px;
+  }
+  .news_letter>.container {
+    padding: 5% 4%;
+  }
+  .news_letter>.container>span {
+    padding: 3% 0;
+  }
+  .news_letter>.container>p {
+    padding: 5% 0;
+  }
+  .news_letter .btn_more {
+    margin-top: 10%;
+  }
+
+  /* footer */
+  footer {
+    height: 600px;
+  }
+  footer>.container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  footer>.container h1 {
+    width: 130px;
+    height: 130px;
+  }
+  .footer_menu {
+    width: 100%;
+    padding: 10px;
+  }
+  .footer_menu div {
+    margin: 0 5px;
+  }
+  .footer_menu div ul li {
+    font-size: 12px;
+  }
+  .footer_right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 90px;
+    padding: 0 10px;
+  }
+  .footer_right .sns {
+    width: 50%;
+  }
+  .footer_right .sns li {
+    padding: 0 3px;
+  }
+  .language {
+    width: 50%;
+    margin-top: 0;
+    padding-left: 0;
+  }
+  .language>div {
+    margin-left: 10px;
+    width: 110px;
+  }
+}
